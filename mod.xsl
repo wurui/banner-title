@@ -2,9 +2,18 @@
     <xsl:template match="/root" name="wurui.banner-title">
         <!-- className 'J_OXMod' required  -->
         <div class="J_OXMod oxmod-banner-title" ox-mod="banner-title">
-            <h1>
-                This is mod banner-title;
-            </h1>
+            
+            <img src="{data/banner-title/bgpic}"/>
+            <div class="text">
+            	<h2>
+	            	<xsl:value-of select="data/banner-title/title"/>
+	            </h2>
+	            <h3>
+	            	<xsl:value-of select="data/banner-title/subtitle"/>
+	            </h3>
+            </div>
+            
+            
         </div>
     </xsl:template>
 </xsl:stylesheet>
