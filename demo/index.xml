@@ -15,10 +15,12 @@
         <icon>//oxm1.cc/img/app_default.png</icon>
     </p>
     <data>
-    <banner-title ADAPTERID="25bc5c4dba74fbb14810d3c1c">
-        <title>问卷填写</title>
-        <subtitle>关于你对平台的看法</subtitle>
-        <bgpic>http://i.oxm1.cc/uploads/git/wurui/img/29w0qs2ueTjnbm9iveRlh9iAsu9-327.jpg</bgpic>
-    </banner-title>
+        <ui-entry>
+            <i>
+                <title>问卷填写</title>
+                <subtitle>关于你对平台的看法</subtitle>
+                <bg>http://i.oxm1.cc/uploads/git/wurui/img/29w0qs2ueTjnbm9iveRlh9iAsu9-327.jpg</bg>
+            </i>
+        </ui-entry>
     </data>
 </root>

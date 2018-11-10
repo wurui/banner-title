@@ -2,14 +2,14 @@
     <xsl:template match="/root" name="wurui.banner-title">
         <!-- className 'J_OXMod' required  -->
         <div class="J_OXMod oxmod-banner-title" ox-mod="banner-title">
-            
-            <img src="{data/banner-title/bgpic}"/>
+            <xsl:variable name="banner-title" select="data/ui-entry/i[1]"/>
+            <img src="{$banner-title/bg}"/>
             <div class="text">
             	<h2>
-	            	<xsl:value-of select="data/banner-title/title"/>
+	            	<xsl:value-of select="$banner-title/title"/>
 	            </h2>
 	            <h3>
-	            	<xsl:value-of select="data/banner-title/subtitle"/>
+	            	<xsl:value-of select="$banner-title/subtitle"/>
 	            </h3>
             </div>
             

@@ -3,7 +3,7 @@
   "name": "banner-title",
   "apiDependencies": [
   {
-    "name": "banner-title"
+    "name": "ui-entry"
   }
 ]
 }
